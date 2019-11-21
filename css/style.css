@@ -114,3 +114,39 @@ body{
 .right-bar ul li a i{
   padding-left: 20px;
 }
+.banner-bck{
+  height: 695px;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner{
+  width: 80%;
+  margin: 0 auto;
+}
+.title{
+  width: 33%;
+  padding-top: 40px;
+}
+.title h1{
+  line-height: 50px;
+  color: #33475b;
+}
+.title .top-p{
+  margin-top: 25px;
+  margin-bottom: 45px;
+  line-height: 25px;
+  color: #33475b;
+}
+.title a{
+  text-decoration: none;
+}
+.title .button-title{
+  padding: 20px;
+  background-color: #fe775a;
+  color: white;
+}
+.bottom-p{
+  color: #33475b;
+  margin-top: 60px;
+}
