@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
 .first-bar{
   background-color: #d9e0e6;
   border-bottom: 1px solid #32495b;
@@ -70,4 +73,44 @@
 .button-orange{
   background-color: #fe775a;
   color: white;
+}
+.second-bar{
+  background-color: #fff;
+}
+.second-inside-bar{
+  width: 80%;
+  margin: 0 auto;
+}
+.second-inside-bar::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.left-bar{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+.left-bar img{
+  margin: 20px 0;
+}
+.right-bar{
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.right-bar ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 20px;
+}
+.right-bar ul li a{
+  text-decoration: none;
+  color: #32495b;
+}
+.right-bar ul:last-child li{
+  padding-right: 0;
+}
+.right-bar ul li a i{
+  padding-left: 20px;
 }
