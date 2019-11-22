@@ -7,6 +7,8 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .first-bar{
+  position: fixed;
+  width: 100%;
   background-color: #d9e0e6;
   border-bottom: 1px solid #32495b;
 }
@@ -76,6 +78,7 @@ body{
 }
 .second-bar{
   background-color: #fff;
+  padding-top: 81px;
 }
 .second-inside-bar{
   width: 80%;
@@ -129,8 +132,9 @@ body{
   padding-top: 40px;
 }
 .title h1{
-  line-height: 50px;
+  line-height: 70px;
   color: #33475b;
+  font-size: 50px;
 }
 .title .top-p{
   margin-top: 25px;
@@ -149,4 +153,82 @@ body{
 .bottom-p{
   color: #33475b;
   margin-top: 60px;
+}
+.top-main{
+  background-color: #d9e0e6;
+}
+.top-main-inside{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.top-main-inside h2{
+  color: #33475b;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.top-main-inside p{
+  color: #33475b;
+  line-height: 25px;
+  padding-bottom: 80px;
+}
+.middle-main{
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+}
+.middle-main-in::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.middle-main-in{
+  padding: 5% 10%;
+}
+.middle-left, .middle-right{
+  float: left;
+}
+.middle-left{
+  width: 40%;
+}
+.middle-right{
+  width: 50%;
+}
+.middle-left p{
+  margin-top: 30px;
+}
+.middle-left p a{
+  text-decoration: none;
+}
+.bt{
+  padding: 25px 35px;
+}
+.middle-right ul{
+  list-style: none;
+}
+.middle-right h2{
+  color: #33475b;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.middle-right p {
+  color: #33475b;
+  line-height: 25px;
+  margin-bottom: 35px;
+}
+.middle-right h3{
+  color: #33475b;
+  font-size: 25px;
+}
+.middle-right ul{
+  margin-top: 35px;
+}
+.middle-right li{
+  display: inline-block;
+  padding-right: 20px;
+}
+.middle-right li i{
+  color: #fe775a;
+  padding-right: 30px;
 }
