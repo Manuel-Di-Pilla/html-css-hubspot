@@ -366,9 +366,10 @@ body{
   font-size: 30px;
 }
 .customers-left-p{
-  width: 60%;
+  width: 75%;
   padding: 30px 0;
   line-height: 30px;
+  font-size: 20px;
 }
 .customers-right img{
   padding: 20px 10px;
@@ -413,4 +414,72 @@ body{
 }
 .bottom-right img{
   width: 400px;
+}
+.footer{
+  background-color: #33475B;
+}
+.footer-inside{
+  width: 80%;
+  margin: 0 auto;
+}
+.footer-nav::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer-nav{
+  padding: 100px 0;
+}
+.footer-inside .nav-item{
+  float: left;
+}
+.footer-inside ul{
+  list-style: none;
+}
+.footer-inside ul li a{
+  text-decoration: none;
+}
+.title-li{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav-item{
+  margin-right: 4%;
+  width: 22%;
+}
+.x{
+  margin-right: 0;
+}
+.nav-item li a{
+  color: rgb(187, 218, 223);
+}
+.nav-item li a:hover{
+  color: #69ABD9;
+}
+.nav-item li{
+  padding: 10px 0;
+}
+.nav-item li span{
+  padding-right: 10px;
+}
+#list-button{
+  margin: 15px 0;
+}
+#list{
+  color: white;
+}
+#list:hover{
+  color: white;
+}
+#contact{
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  color: #334C64;
+}
+#nav-logo i{
+  padding-right: 20px;
+  padding-top: 10px;
+  font-size: 20px;
 }
