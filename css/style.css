@@ -242,9 +242,9 @@ body{
 }
 .bottom-main-inside{
   width: 80%;
-  height: 680px;
   margin: 0 auto;
   margin-top: 50px;
+  padding-bottom: 40px;
 }
 .bottom-main-inside::after{
   content: "";
@@ -291,4 +291,56 @@ body{
 .box-float a{
   display: inline-block;
   margin-top: 40px;
+}
+.bottom-main{
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+.bottom-main-width{
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+.bottom-top-h2{
+  width: 50%;
+  margin: 0 auto;
+}
+.bottom-top-p{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.bottom-top-h2 h2{
+  padding-top: 80px;
+  font-size: 30px;
+}
+.bottom-main-width h2, .bottom-main-width p{
+  text-align: center;
+}
+.container{
+  text-align: center;
+  padding-bottom: 80px;
+}
+.box{
+  display: inline-block;
+  width: 20%;
+  padding: 30px;
+}
+.container-top .box{
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.container-bottom .box{
+  border-right: 1px solid white;
+}
+.box h2{
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#end, #end1{
+  border-right: 0;
+}
+.end-main-top{
+  
 }
