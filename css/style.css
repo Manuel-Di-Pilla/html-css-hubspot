@@ -75,6 +75,7 @@ body{
 .button-orange{
   background-color: #fe775a;
   color: white;
+  text-decoration: none;
 }
 .second-bar{
   background-color: #fff;
@@ -220,6 +221,7 @@ body{
 .middle-right h3{
   color: #33475b;
   font-size: 25px;
+  line-height: 80px;
 }
 .middle-right ul{
   margin-top: 35px;
@@ -230,5 +232,63 @@ body{
 }
 .middle-right li i{
   color: #fe775a;
-  padding-right: 30px;
+  padding-right: 20px;
+}
+.middle{
+  display: inline-block;
+  width: 50%;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+.bottom-main-inside{
+  width: 80%;
+  height: 680px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.bottom-main-inside::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.box-float{
+  float: left;
+  width: 30%;
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+}
+.center{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.box-float ul{
+  list-style: none;
+  text-align: left;
+}
+.box-float img{
+  height: 150px;
+}
+.box-float h2{
+  color: #33475b;
+}
+.box-float p{
+  color: #33475b;
+  line-height: 25px;
+  margin: 20px 0;
+}
+.box-float h3{
+  color: #33475b;
+  margin: 20px 0;
+}
+.box-float li span{
+  color: #33475b;
+  padding-left: 10px;
+}
+.box-float li i{
+  color: #fe775a;
+}
+.box-float a{
+  display: inline-block;
+  margin-top: 40px;
 }
