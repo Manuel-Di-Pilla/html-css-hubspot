@@ -241,9 +241,11 @@ body{
 }
 .middle{
   display: inline-block;
-  width: 50%;
-  margin: 0 10px;
+  width: 60%;
+  margin-left: 10px;
   vertical-align: middle;
+  border-color: #899397;
+  background-color: #899397;
 }
 .bottom-main-inside{
   width: 80%;
